@@ -94,8 +94,8 @@ public class MyEditor extends JFrame implements ActionListener  {
 		
 		menuOption.addSeparator();
 		
-		JMenuItem itemColor = new JMenuItem("Color");
-		menuOption.add(itemColor);
+		JMenuItem itemApp = new JMenuItem("App");
+		menuOption.add(itemApp);
 		
 		bar.add(menuOption);
 		
