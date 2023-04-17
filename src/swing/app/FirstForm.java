@@ -46,7 +46,9 @@ public class FirstForm extends JFrame implements ActionListener  {
 		Object obj = e.getSource();
 		
 		if(obj == btn) {
-			sf = new SecodeForm("SecodeForm", this);			
+			
+			sf = new SecodeForm("SecodeForm", this);
+			
 		} else if(obj == btn2) {
 			if(sf != null) {
 				String str = textField.getText();
