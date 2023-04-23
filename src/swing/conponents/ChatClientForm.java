@@ -64,7 +64,7 @@ public class ChatClientForm extends JFrame implements ActionListener  {
 		tf.addActionListener(this);
 		panSouth.add(tf);
 		
-		JButton sendBtn = new JButton("º¸³»±â");
+		JButton sendBtn = new JButton("ë³´ë‚´ê¸°");
 		sendBtn.setPreferredSize(new Dimension(100, 25));
 		sendBtn.addActionListener(this);
 		panSouth.add(sendBtn);
@@ -79,7 +79,7 @@ public class ChatClientForm extends JFrame implements ActionListener  {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		ta.append("[¸Þ½ÃÁö] : " + tf.getText() + "\n");
+		ta.append("[ë©”ì‹œì§€] : " + tf.getText() + "\n");
 		tf.setText("");
 		tf.requestFocus();
 	}
