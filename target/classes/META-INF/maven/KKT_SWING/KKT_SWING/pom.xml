@@ -3,15 +3,21 @@
   <groupId>KKT_SWING</groupId>
   <artifactId>KKT_SWING</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <description>나의 자바 프로젝트</description>
+  <description>스윙 프로젝트 만들기</description>
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/com.fifesoft/rsyntaxtextarea -->
 	<dependency>
 	    <groupId>com.fifesoft</groupId>
 	    <artifactId>rsyntaxtextarea</artifactId>
 	    <version>3.3.3</version>
-	</dependency>	
-
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+	<dependency>
+	    <groupId>com.mysql</groupId>
+	    <artifactId>mysql-connector-j</artifactId>
+	    <version>8.0.33</version>
+	</dependency>
+  
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -20,7 +26,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>19</release>
+          <release>17</release>
         </configuration>
       </plugin>
     </plugins>

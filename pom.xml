@@ -3,22 +3,21 @@
   <groupId>KKT_SWING</groupId>
   <artifactId>KKT_SWING</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>	
+  <description>스윙 프로젝트 만들기</description>
+  <dependencies>
 	<!-- https://mvnrepository.com/artifact/com.fifesoft/rsyntaxtextarea -->
 	<dependency>
 	    <groupId>com.fifesoft</groupId>
 	    <artifactId>rsyntaxtextarea</artifactId>
 	    <version>3.3.3</version>
 	</dependency>
-
-    <!-- https://mvnrepository.com/artifact/com.fifesoft/autocomplete -->
-    <dependency>
-        <groupId>com.fifesoft</groupId>
-        <artifactId>autocomplete</artifactId>
-        <version>3.3.1</version>
-    </dependency>
-
-
+	<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+	<dependency>
+	    <groupId>com.mysql</groupId>
+	    <artifactId>mysql-connector-j</artifactId>
+	    <version>8.0.33</version>
+	</dependency>
+  
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
